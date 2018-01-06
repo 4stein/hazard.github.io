@@ -1,0 +1,186 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.search-mobile {
+		/*display: none;*/
+	}
+
+	.headhesive {
+		display: none;
+	}
+
+	input.submit {
+		position: relative;
+		top: 8px;
+		right: -6px;
+		width: 32px;
+	}
+
+	.second__line .row {
+		background-color: #fff;
+		/*padding-bottom: 15px;*/
+	}
+
+	.second__line .nav {
+		line-height: 26px;
+		margin-bottom: 15px;
+	}
+
+	nav.nav {
+		background-color: #fff;
+	}
+
+	.nav ul {
+		display: none;
+		/*background: #f2f2f2;*/
+		margin-top: 10px;
+		padding: 0;
+		background: #F5F4F6;
+	}
+
+	.nav ul li {
+		position: relative;
+		width: 100%;
+		float: right;
+		padding: 0;
+		display: block;
+	}
+
+	.nav ul li a {
+		border-bottom: 1px solid rgba(175, 168, 246, 0.1);
+	}
+
+	.nav li {
+		display: block;
+	}
+
+	.nav a {
+		padding: 10px 20px;
+		color: #828282;
+	}
+
+	.nav a:hover {
+		background: #E7E7E7;
+	}
+
+	.nav .sub__menu {
+		position: relative;
+		float: right;
+		width: 100%;
+		display: block !important;
+		box-shadow: none;
+		background: none;
+		margin: 0;
+		padding: 0;
+		padding-left: 30px;
+	}
+
+	.nav .sub__menu li {
+		width: 100%;
+		border: 0;
+		padding: 0;
+	} 
+
+	.nav .sub__menu li a {
+		color: #828282;
+	}
+
+
+
+
+	/*.nav ul {
+		display: none;
+		}*/
+	.search__header {
+		display: none;
+		}
+
+	.footer__contacts {
+			text-align: center;
+			margin-bottom: 30px;
+			border-bottom: 1px solid #e5e5e5;
+			padding-bottom: 20px;
+		}
+
+		.footer__project__help {
+			text-align: center;
+			margin-top: 30px;
+			border-top: 1px solid #e5e5e5;
+			padding-top: 20px;
+		}	
+
+}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+		.top__line__contacts__mail {
+			display: none;
+		}
+
+		.services img {
+			display: none;
+		}
+
+		.services__text {
+			padding-left: 10px;
+		}
+
+
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+
+		.services li {
+			font-size: 10px;
+		}
+
+	}
+
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
+
+	}
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */
+	@media only screen and (min-width : 320px) {
+
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (min-width : 480px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+	/*.toggle-mnu, #mobile-menu, html.mm-blocking #mm-blocker {
+		display: none;
+		opacity: 0 !important;
+	}
+ 
+	html.mm-opening .mm-slideout {
+		transform: translate(0px, 0px);
+		}*/
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+
+	}
